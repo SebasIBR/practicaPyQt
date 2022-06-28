@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
         button= QPushButton("Bienvenidos a SGC")
         self.setCentralWidget(button)
         
-        self.resize(480,320)
+        self.resize(480,340)
         # self.setMinimumSize(QSize(480,320))
         # self.setMaximumSize(QSize(480,320))
         # self.setFixedSize(QSize(480,320))
