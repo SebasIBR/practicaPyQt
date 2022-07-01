@@ -13,3 +13,5 @@ class Hijo(Madre, Padre):
         Madre.__init__(self)
         Padre.__init__(self)
         print(f"Soy Hijo")
+        
+hijo = Hijo()
