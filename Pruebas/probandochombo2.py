@@ -17,6 +17,8 @@ class MainWindow(QMainWindow):
         self.widgets.boton.clicked.connect(self.aceptar)   
     def aceptar(self):
         self.lista=self.widgets.lista.currentText()
+        if self.widgets.lista.currentIndex() == -1 :
+            print("entre en el if")
         nuevo_departamento(self.lista)
         print(self.lista)
         # self.nuevo=self.widgets.lista.insertItems(0, self.lista)

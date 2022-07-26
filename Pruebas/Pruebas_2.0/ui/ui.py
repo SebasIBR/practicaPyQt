@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'untitledUSscrB.ui'
+## Form generated from reading UI file 'untitledOkMvOl.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.3.1
 ##
@@ -60,7 +60,18 @@ class Ui_MainWindow(object):
 
         self.aceptar = QPushButton(self.centralwidget)
         self.aceptar.setObjectName(u"aceptar")
-        self.aceptar.setGeometry(QRect(210, 210, 181, 31))
+        self.aceptar.setGeometry(QRect(400, 280, 181, 31))
+        self.horizontalLayoutWidget_3 = QWidget(self.centralwidget)
+        self.horizontalLayoutWidget_3.setObjectName(u"horizontalLayoutWidget_3")
+        self.horizontalLayoutWidget_3.setGeometry(QRect(50, 190, 511, 41))
+        self.horizontalLayout = QHBoxLayout(self.horizontalLayoutWidget_3)
+        self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
+        self.color = QComboBox(self.horizontalLayoutWidget_3)
+        self.color.setObjectName(u"color")
+
+        self.horizontalLayout.addWidget(self.color)
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
